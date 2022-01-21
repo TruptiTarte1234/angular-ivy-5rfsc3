@@ -4,7 +4,7 @@ p {
 
 .leftPanel {
   width: 30%;
-  margin-left: auto;
+  /*margin-left: auto;*/
   margin-right: auto;
   display: block;
   text-align: center;
