@@ -19,6 +19,11 @@ const appRoutes: Routes = [
   { path: 'portfolio', component: PortfolioContentComponent },
   { path: 'blog', component: BlogContentComponent },
   { path: 'contact', component: ContactContentComponent },
+  {
+    path: '',
+    redirectTo: './home-content/home-content.component',
+    pathMatch: 'full',
+  },
 ];
 
 @NgModule({

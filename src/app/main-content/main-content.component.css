@@ -25,11 +25,18 @@
 }
 
 .nav-link.active {
-  color: #0330fc;
-  border-bottom: 3px solid #0330fc;
+  color: #0d6efd;
+  border-bottom: 3px solid #0d6efd;
 }
 
 .nav-link:hover {
-  color: #0330fc;
-  border-bottom: 3px solid #0330fc;
+  color: #0d6efd;
+  border-bottom: 3px solid #0d6efd;
+}
+
+.content-container {
+  background: #fff;
+  padding: 1em;
+  margin-right: 1em;
+  float: left;
 }

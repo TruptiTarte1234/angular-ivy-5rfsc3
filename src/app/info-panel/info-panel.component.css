@@ -26,7 +26,6 @@
 }
 
 .social-btns .btn .fa {
-  color: #0330fc;
   font-size: 1em;
 }
 
@@ -39,10 +38,8 @@
 }
 
 .downloadBtn {
-  background-color: #0330fc;
   margin-top: 1em;
   border-radius: 1em;
-  color: #fff;
   padding: 0.3em 1.5em;
   border: none;
 }
@@ -60,9 +57,4 @@
   margin-left: auto;
   margin-right: auto;
   width: 200px;
-}
-
-.languages h6,
-.interests h6 {
-  color: #0330fc;
 }
