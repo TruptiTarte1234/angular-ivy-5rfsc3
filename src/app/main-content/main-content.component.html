@@ -1,6 +1,9 @@
-<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+<nav class="navbar navbar-expand-lg">
   <div class="container-fluid px-0">
-    <div class="row w-100">
+    <div class="col-2">
+      <button class="shareBtn"><i class="fa fa-share-alt"></i> SHARE</button>
+    </div>
+    <div class="col-10">
       <div class="col-2">
         <button
           class="navbar-toggler"
@@ -12,7 +15,7 @@
           aria-label="Toggle navigation"
           (click)="isShown = !isShown"
         >
-          <span class="navbar-toggler-icon"></span>
+          <i class="fa fa-bars"></i>
         </button>
       </div>
 
@@ -23,19 +26,24 @@
           id="navbarTogglerDemo03"
         >
           <ul class="navbar-nav mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#" (click)="isShown = false">Home</a>
-            </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" (click)="isShown = false">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" (click)="isShown = false"
-                >Portfolio</a
+              <a class="nav-link active" href="#" (click)="isShown = false"
+                >HOME</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" (click)="isShown = false">Book Me</a>
+              <a class="nav-link" href="#" (click)="isShown = false">RESUME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" (click)="isShown = false"
+                >PORTFOLIO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" (click)="isShown = false">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" (click)="isShown = false">CONTACT</a>
             </li>
           </ul>
         </div>
