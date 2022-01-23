@@ -27,23 +27,54 @@
         >
           <ul class="navbar-nav mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="#" (click)="isShown = false"
+              <a
+                routerLink="/home"
+                routerLinkActive="active"
+                class="nav-link active"
+                href="#"
+                (click)="isShown = false"
                 >HOME</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" (click)="isShown = false">RESUME</a>
+              <a
+                routerLink="/resume"
+                routerLinkActive="active"
+                class="nav-link"
+                href="#"
+                (click)="isShown = false"
+                >RESUME</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" (click)="isShown = false"
+              <a
+                routerLink="/portfolio"
+                routerLinkActive="active"
+                class="nav-link"
+                href="#"
+                (click)="isShown = false"
                 >PORTFOLIO</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" (click)="isShown = false">BLOG</a>
+              <a
+                routerLink="/blog"
+                routerLinkActive="active"
+                class="nav-link"
+                href="#"
+                (click)="isShown = false"
+                >BLOG</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" (click)="isShown = false">CONTACT</a>
+              <a
+                routerLink="/contact"
+                routerLinkActive="active"
+                class="nav-link"
+                href="#"
+                (click)="isShown = false"
+                >CONTACT</a
+              >
             </li>
           </ul>
         </div>
@@ -51,3 +82,4 @@
     </div>
   </div>
 </nav>
+<router-outlet></router-outlet>
