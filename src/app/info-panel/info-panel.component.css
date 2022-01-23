@@ -58,3 +58,9 @@
   margin-right: auto;
   width: 200px;
 }
+@media only screen and (max-width: 768px) {
+  .languages,
+  .interests {
+    width: 90%;
+  }
+}
