@@ -9,4 +9,7 @@
   [class*='col-']:not(.col-1):not(.col-11) {
     width: 100%;
   }
+  .mobExpContainer {
+    margin-top: 3em;
+  }
 }
