@@ -3,13 +3,14 @@ p {
 }
 
 .leftPanel {
-  width: 30%;
+  /*width: 30%;*/
   /*margin-left: auto;*/
+  float: left;
   margin-right: auto;
   display: block;
   text-align: center;
-  /*width: 8em*/
 }
 .rightPanel {
-  width: 70%;
+  /*width: 70%;*/
+  float: left;
 }
