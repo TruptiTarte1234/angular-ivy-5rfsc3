@@ -10,7 +10,9 @@
   font-weight: 600;
   background: #fff;
 }
-
+.shareBtn:hover {
+  opacity: 0.5;
+}
 .shareBtn .fa-share-alt {
   padding-right: 10px;
 }
@@ -34,6 +36,7 @@
 }
 
 .content-container {
+  width: 98%;
   background: #fff;
   padding: 1em;
   margin-right: 1em;
