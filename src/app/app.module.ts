@@ -21,7 +21,7 @@ const appRoutes: Routes = [
   { path: 'contact', component: ContactContentComponent },
   {
     path: '',
-    redirectTo: './home-content/home-content.component',
+    redirectTo: '/home',
     pathMatch: 'full',
   },
 ];
